@@ -1,0 +1,113 @@
+#homepage { 
+    background-image: url(main-bg.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.center {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    font-family: 'bebas-neue', sans-serif;
+}
+
+.center1  {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%);
+    font-family: 'bebas-neue', sans-serif;
+}
+
+.button {
+    background-color: #F3AF34;
+    border: none;
+    color: black;
+    padding: 20px 100px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: 'open-sans', sans-serif ;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110%;
+}
+
+#gamechoice { 
+    background-image: url(the-games-bg.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    transform: translate(-50%);
+    font-family: 'bebas-neue', sans-serif;
+}
+
+.p2 {
+    position: absolute;
+    left: 22%;
+    top: 20%;
+    transform: translate(-50%);
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 70px;
+}
+
+.p3 {
+    position: absolute;
+    left: 64%;
+    top: 20%;
+    transform: translate(-50%);
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 40px;
+}
+
+.p4 {
+    position: absolute;
+    left: 65%;
+    top: 26%;
+    transform: translate(-50%);
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 70px;
+}
+
+.desctext {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 22%;
+    top: 18%;
+    transform: translate(-50%);
+    font-family: 'bebas-neue', sans-serif;
+}
+
+#character { 
+    background-image: url(features.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
