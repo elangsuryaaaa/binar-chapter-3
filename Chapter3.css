@@ -36,6 +36,7 @@
     text-align: center;
     border-radius: 4px;
     font-family: 'open-sans', sans-serif ;
+    position: absolute;
 }
 
 .center-button {
@@ -53,6 +54,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#carouselExampleIndicators {
+    height: 477px;
+    width: 858px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
 }
 
 .text {
@@ -92,6 +101,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: white;
+    width: 25px;
+    height: 25px;
+}
+  
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid white; 
+    width: 25px;
+    height: 25px;  
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    border: 2px solid white; 
+    width: 25px;
+    height: 25px;  
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 170px;
 }
 
 .p3 {
@@ -162,6 +197,19 @@
     position: relative;
 }
 
+table, td, th {
+    border: 2px solid grey;
+  }
+  
+  table {
+    position: relative;
+    width: 40%;
+    height: 25%;
+    border-collapse: collapse;
+    top: 35%;
+    left: 10%;
+  }
+
 .p9 {
     position: absolute;
     left: 20%;
@@ -192,6 +240,111 @@
         position: relative;
 }
 
+#testi {
+    border-radius: 10px;
+    background: grey;  
+    padding: 20px; 
+    width: 400px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+#testi2 {
+    border-radius: 10px;
+    background: grey;
+    padding: 20px; 
+    width: 400px;
+    height: 200px;  
+    opacity: 0.5;
+}
+
+#testi3 {
+    border-radius: 10px;
+    background: grey;
+    padding: 20px; 
+    width: 400px;
+    height: 200px;  
+    opacity: 0.5;
+}
+
+.p15 {
+    color: #F3AF34;
+    font-size: 25px;
+    top: 12%;
+    left: 63%;
+}
+
+.p16 {
+    color: white;
+    font-size: 18px;
+    top: 14.5%;
+    left: 62.2%;
+}
+
+.correction {
+    font-size: 18px;
+    top: 20%;
+    left: 67%;
+}
+
+.twitter {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 12.5%;
+    left: 74%;
+}
+
+.l2 {
+    top: 35%;
+    left: 64%;
+}
+
+.l3 {
+    top: 59%;
+    left: 74%;
+}
+
+.p17 {
+    color: #F3AF34;
+    font-size: 25px;
+    top: 35%;
+    left: 53%;
+}
+
+.p18 {
+    color: white;
+    font-size: 18px;
+    top: 37.5%;
+    left: 52.3%;
+}
+
+.correction2 {
+    font-size: 18px;
+    top: 43%;
+    left: 56%;
+}
+
+.p19 {
+    color: #F3AF34;
+    font-size: 25px;
+    top:59%;
+    left: 65%;
+}
+
+.p20 {
+    color: white;
+    font-size: 18px;
+    top: 61.5%;
+    left: 62%;
+}
+
+.correction3 {
+    font-size: 18px;
+    top: 66%;
+    left: 66%;
+}
+
 .p11 {
         position: absolute;
         left: 18%;
@@ -216,7 +369,7 @@
         display: flex;
         justify-content: left;
         align-items: center;
-        height: 120%;
+        height: 115%;
         padding: 8%;
 }
 
@@ -257,4 +410,99 @@
     font-family: 'bebas-neue', sans-serif;
     font-size: 20px;
     color: white;
+}
+
+.right-button {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 140%;
+    padding-left: 70%; 
+}
+
+.monkey{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 13%;
+    left: 13%;
+}
+
+#testi4 {
+    border-radius: 10px;
+    background: grey;
+    padding: 20px; 
+    width: 450px;
+    height:65px;  
+    opacity: 0.5;
+}
+
+.email{
+    color: #F3AF34;
+    position: absolute;
+    font-size: 30px;
+    top: 67.5%;
+    left: 47%;
+}
+
+.menu-text {
+    color: white;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 10%;
+    right: 180% ;
+}
+
+.m1 {
+    right: 160%;
+}
+
+.m2 {
+    right: 140%;
+}
+
+.m3 {
+    right: 130%
+}
+
+.m4 {
+    left: 120%;
+}
+.facebook {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 82%;
+    left: 65%;
+}
+
+.twt {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 82%;
+    left: 70%;
+}
+
+.youtube {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 82%;
+    left: 75%;
+}
+
+.twitch {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 82%;
+    left: 80%;
+}
+
+.line1 {
+    border-top: 10px solid red;
+    display: absolute;
+    /* top: ; */
 }
